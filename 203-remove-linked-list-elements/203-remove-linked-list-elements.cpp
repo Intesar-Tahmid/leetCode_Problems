@@ -32,7 +32,8 @@ public:
         
           if(head->val == val)
         {
-           return head->next;
+           //return head->next;
+              head = head->next;
             
         }
         
